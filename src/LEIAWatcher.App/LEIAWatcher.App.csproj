@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <OutputType>WinExe</OutputType>
+  <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+  <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+  <RootNamespace>LEIAWatcher.App</RootNamespace>
+  <UseWinUI>true</UseWinUI>
+
+  <WindowsPackageType>None</WindowsPackageType>
+  <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+  <SelfContained>true</SelfContained>
+  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  <Nullable>enable</Nullable>
+  <ImplicitUsings>enable</ImplicitUsings>
+  <EnableMsixTooling>false</EnableMsixTooling>
+  <ApplicationIcon>Assets\Brand\leia-watcher-eye-radar-v2.ico</ApplicationIcon>
+ </PropertyGroup>
+ <ItemGroup>
+  <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260921001" />
+  <FrameworkReference Include="Microsoft.WindowsDesktop.App.WindowsForms" />
+  <ProjectReference Include="..\LEIAWatcher.Domain\LEIAWatcher.Domain.csproj" />
+  <ProjectReference Include="..\LEIAWatcher.Ipc\LEIAWatcher.Ipc.csproj" />
+  <Content Include="..\..\Bridge\watcher_bridge.py" Link="Bridge\watcher_bridge.py"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory><CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory></Content>
+  <Content Include="Assets\**\*"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+ </ItemGroup>
+</Project>

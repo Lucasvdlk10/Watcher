@@ -1,0 +1,3 @@
+# ADR-003 · V3 sobre UI nativa existente
+
+**Decisão:** evolução incremental do shell Tk/Canvas já funcional em V2 + branding oficial LEIA. **Motivo:** entrega V3 instalável e reversível usando Python existente sem requisição de bibliotecas ou runtime web. **Alternativa Qt Quick/PySide6:** visualmente superior em composições com blur e scaling, mas exigiria wheels Windows offline, build e migração da GUI não homologáveis neste ambiente, elevando risco de substituir Watcher funcional por demo. **Consequência:** V3 é update REAL, mas não promete transparência de compositor, shader ou FPS de Qt Quick; componentes são Canvas, Frames e controles nativos acessíveis. **Status:** implementada e testada em Linux, aprovação Windows pendente.

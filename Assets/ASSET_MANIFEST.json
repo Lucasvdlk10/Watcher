@@ -1,0 +1,161 @@
+{
+  "source": "User supplied LEIA WATCHER 4 bundle; derivative icons authored for this update",
+  "assets": [
+    {
+      "file": "Assets/AppIcon/Square150x150Logo.scale-100.png",
+      "sha256": "f36c2d254308baf01dcad322af7c82ef3997119f6376ad698bd10cac600fd188"
+    },
+    {
+      "file": "Assets/AppIcon/Square150x150Logo.scale-200.png",
+      "sha256": "b53b5086e9207e65a193f60705b059574f3e2ad22259c111e242c1a34010d7b8"
+    },
+    {
+      "file": "Assets/AppIcon/Square44x44Logo.scale-100.png",
+      "sha256": "4a376b827f9be1eb3c560679c378bf0e2dd35d30fd6d65fa3a63574efa2fd5a6"
+    },
+    {
+      "file": "Assets/AppIcon/Square44x44Logo.scale-200.png",
+      "sha256": "71fa4b45feb4cada96352647049547d03e6de74e399e6fb569ff9386f539a0fd"
+    },
+    {
+      "file": "Assets/AppIcon/StoreLogo.png",
+      "sha256": "423598bfc924e77412d209b2b80628dd1e30509bdb588eaa84e9eac40bdb131c"
+    },
+    {
+      "file": "Assets/AppIcon/leia-watcher.ico",
+      "sha256": "fd75763a7ab59f6a27072ad28485f05523aecbf5b4ddb81e09f0f173ca4f97e3"
+    },
+    {
+      "file": "Assets/Backgrounds/hero-wave-fallback.png",
+      "sha256": "827bb9841546d4ee0e5b54d6caf24045025fe956a9e4de14be8aa9404f2fc695"
+    },
+    {
+      "file": "Assets/Backgrounds/hero-wave.svg",
+      "sha256": "bab11b8dc9088078a1fe7dc3c485c3865ff53ea7cf65e547fa20fb43711c56f8"
+    },
+    {
+      "file": "Assets/Brand/leia-watcher-lockup-dark.svg",
+      "sha256": "3f18f9ff36f8896fe26c3092ddd0faa3dbe8d3bbd30305057b01271b194edc72"
+    },
+    {
+      "file": "Assets/Brand/leia-watcher-lockup-light.svg",
+      "sha256": "3f18f9ff36f8896fe26c3092ddd0faa3dbe8d3bbd30305057b01271b194edc72"
+    },
+    {
+      "file": "Assets/Brand/leia-watcher-symbol.svg",
+      "sha256": "3f18f9ff36f8896fe26c3092ddd0faa3dbe8d3bbd30305057b01271b194edc72"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo.svg",
+      "sha256": "3f18f9ff36f8896fe26c3092ddd0faa3dbe8d3bbd30305057b01271b194edc72"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo_128.png",
+      "sha256": "317e6cc318615b8f207ea6a391346ccfaaab0549b6635d2848e896f1fa1abf31"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo_16.png",
+      "sha256": "001698e266a4a92ad341b11a85195c1b009e2363c956ea4a0c81f49c94770614"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo_24.png",
+      "sha256": "798a12555c0e2c96eef6bf8ed1678be71a42322865e0443782b27ee5e4e69519"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo_256.png",
+      "sha256": "1282bc99fc893fd3009e23b22c5c7937e7ab0489543de634150159b462c44541"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo_32.png",
+      "sha256": "219c4d96e2bf4c33cb0788ad9f2bf56e8d3accd207fcb90454b8de52bb6ad6cf"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo_48.png",
+      "sha256": "a6fb62c8fda93f57965398056b48080cee1192439892169edf23c6f78e6765fb"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo_512.png",
+      "sha256": "6845619548aa5f84f380eb1d02f5700a80af4fb07c809e3fdac36a4a202423a1"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_Watcher_Logo_64.png",
+      "sha256": "0666b5657145346a8d9cac37d57181513feaae6a34fe412e0cda071eff779b84"
+    },
+    {
+      "file": "Assets/BrandBaseline/LEIA_tokens.css",
+      "sha256": "28def37b8b480577092d6ca3085d733e46be3be461da214e94f08ed649d8276d"
+    },
+    {
+      "file": "Assets/BrandBaseline/LICENSE.txt",
+      "sha256": "d4ee3b430147ac7208ae6a86894ccfbf16340412c988a9413458af056a26ee04"
+    },
+    {
+      "file": "Assets/BrandBaseline/leia_dark.ico",
+      "sha256": "fd75763a7ab59f6a27072ad28485f05523aecbf5b4ddb81e09f0f173ca4f97e3"
+    },
+    {
+      "file": "Assets/BrandBaseline/leia_watcher_256.png",
+      "sha256": "1282bc99fc893fd3009e23b22c5c7937e7ab0489543de634150159b462c44541"
+    },
+    {
+      "file": "Assets/BrandBaseline/leia_watcher_48.png",
+      "sha256": "a6fb62c8fda93f57965398056b48080cee1192439892169edf23c6f78e6765fb"
+    },
+    {
+      "file": "Assets/BrandBaseline/tokens.css",
+      "sha256": "28def37b8b480577092d6ca3085d733e46be3be461da214e94f08ed649d8276d"
+    },
+    {
+      "file": "Assets/BrandBaseline/tokens_to_qml.py",
+      "sha256": "71006eb088f3a4b9829b691171016f941e300bb419a3bf89f708f264c765abcf"
+    },
+    {
+      "file": "Assets/Icons/files.svg",
+      "sha256": "5afa408612e64249a0097fae124f100287d7aa1f625abdd57c870092efdb1057"
+    },
+    {
+      "file": "Assets/Icons/folders.svg",
+      "sha256": "c3b872c146ab98d9ce760e8b9bbfea80e0d8059087a1bf36ddc712b14c26f341"
+    },
+    {
+      "file": "Assets/Icons/hermes.svg",
+      "sha256": "5ae842a4d0e5b58fd56341f44420d8c3a66d70312b5b800186089eb95ab2a426"
+    },
+    {
+      "file": "Assets/Icons/history.svg",
+      "sha256": "3d1fa5af5253928872569219e93755a940fdc62176c32d72bbfe2d48c4ef5554"
+    },
+    {
+      "file": "Assets/Icons/integrity.svg",
+      "sha256": "a70c9fe2b2fa183984c819c5f9810797451db419d44d99c7a927fc622b619bfd"
+    },
+    {
+      "file": "Assets/Icons/notification.svg",
+      "sha256": "989f0f6282496dc42a5c17960b1b01a16801275b3ebaff36e2870e16cea5331f"
+    },
+    {
+      "file": "Assets/Icons/overview.svg",
+      "sha256": "e77b4b1b4db481d4105bd7b778135a4dc81caca439500f32ea259bf930409109"
+    },
+    {
+      "file": "Assets/Icons/report.svg",
+      "sha256": "ffac0e29b0732ca34d64d793a61a1d24f6e18f30ee9fc14dc1872eae36007998"
+    },
+    {
+      "file": "Assets/Icons/rules.svg",
+      "sha256": "a39681b4f12f3a7fdff66189ab5e4027c1b68503dd9a0d88b9686c92b6e6bc67"
+    },
+    {
+      "file": "Assets/Icons/search.svg",
+      "sha256": "146f1661b3f6b26cb606fda3c617b46f78f36cd1fe8ff3ed4167f539f3370c44"
+    },
+    {
+      "file": "Assets/Icons/settings.svg",
+      "sha256": "5731ca748de4054fca31ac97e4f1c437f30c8debc3da97565ee86c7628da1352"
+    },
+    {
+      "file": "Assets/Icons/sync.svg",
+      "sha256": "de0935802d32be8349c0a4a2d856dd110f8a1782cff1031ee6a5068b71262d04"
+    }
+  ]
+}

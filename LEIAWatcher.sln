@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEIAWatcher.App", "src\LEIAWatcher.App\LEIAWatcher.App.csproj", "{F326EAA4-68F3-4EFA-9F3D-FAC22C105A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEIAWatcher.Domain", "src\LEIAWatcher.Domain\LEIAWatcher.Domain.csproj", "{DB6F69B6-68C0-430E-8A99-7169272A20D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEIAWatcher.Ipc", "src\LEIAWatcher.Ipc\LEIAWatcher.Ipc.csproj", "{563B29D4-F8DB-4F48-9804-FE27CED9137A}"
+EndProject
+Global
+ GlobalSection(SolutionConfigurationPlatforms) = preSolution
+  Debug|x64 = Debug|x64
+  Release|x64 = Release|x64
+ EndGlobalSection
+ GlobalSection(ProjectConfigurationPlatforms) = postSolution
+  {F326EAA4-68F3-4EFA-9F3D-FAC22C105A41}.Debug|x64.ActiveCfg = Debug|Any CPU
+  {F326EAA4-68F3-4EFA-9F3D-FAC22C105A41}.Debug|x64.Build.0 = Debug|Any CPU
+  {F326EAA4-68F3-4EFA-9F3D-FAC22C105A41}.Release|x64.ActiveCfg = Release|Any CPU
+  {F326EAA4-68F3-4EFA-9F3D-FAC22C105A41}.Release|x64.Build.0 = Release|Any CPU
+  {DB6F69B6-68C0-430E-8A99-7169272A20D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+  {DB6F69B6-68C0-430E-8A99-7169272A20D5}.Debug|x64.Build.0 = Debug|Any CPU
+  {DB6F69B6-68C0-430E-8A99-7169272A20D5}.Release|x64.ActiveCfg = Release|Any CPU
+  {DB6F69B6-68C0-430E-8A99-7169272A20D5}.Release|x64.Build.0 = Release|Any CPU
+  {563B29D4-F8DB-4F48-9804-FE27CED9137A}.Debug|x64.ActiveCfg = Debug|Any CPU
+  {563B29D4-F8DB-4F48-9804-FE27CED9137A}.Debug|x64.Build.0 = Debug|Any CPU
+  {563B29D4-F8DB-4F48-9804-FE27CED9137A}.Release|x64.ActiveCfg = Release|Any CPU
+  {563B29D4-F8DB-4F48-9804-FE27CED9137A}.Release|x64.Build.0 = Release|Any CPU
+ EndGlobalSection
+EndGlobal

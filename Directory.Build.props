@@ -1,0 +1,1 @@
+<Project><PropertyGroup><Platforms>x64</Platforms><LangVersion>latest</LangVersion><TreatWarningsAsErrors>false</TreatWarningsAsErrors><EnableWindowsTargeting>true</EnableWindowsTargeting></PropertyGroup></Project>

@@ -1,0 +1,99 @@
+/* LEIA 1.0.0: sem CDN, tokens semânticos; ao trocar tema, usar data-theme no html */
+:root, [data-theme="dark"] {
+  --leia-bg: #090D16;
+  --leia-surface: #111827;
+  --leia-surfaceRaised: #1B2538;
+  --leia-surfaceOverlay: #222F45;
+  --leia-text: #F3F7FF;
+  --leia-textSecondary: #BAC6DC;
+  --leia-textMuted: #A3B1CB;
+  --leia-border: #65758F;
+  --leia-brand: #47E2CD;
+  --leia-brandInk: #072520;
+  --leia-blue: #70A7FF;
+  --leia-violet: #B29BFF;
+  --leia-success: #51E0A9;
+  --leia-warning: #F9CF7B;
+  --leia-error: #FF9BA6;
+  --leia-info: #83BEFF;
+  --leia-offline: #ACB7C8;
+  --leia-paused: #A8B2C2;
+  --leia-safe: #65E2B1;
+  --leia-shadow: #000000;
+  color-scheme: dark;
+}
+[data-theme="light"] {
+  --leia-bg: #F6F8FD;
+  --leia-surface: #FFFFFF;
+  --leia-surfaceRaised: #EAF0F9;
+  --leia-surfaceOverlay: #E2EAF5;
+  --leia-text: #141B2B;
+  --leia-textSecondary: #34425B;
+  --leia-textMuted: #4E5C75;
+  --leia-border: #74839C;
+  --leia-brand: #096A60;
+  --leia-brandInk: #FFFFFF;
+  --leia-blue: #1A498D;
+  --leia-violet: #6741AB;
+  --leia-success: #156354;
+  --leia-warning: #835209;
+  --leia-error: #A12841;
+  --leia-info: #1E5389;
+  --leia-offline: #526077;
+  --leia-paused: #515E70;
+  --leia-safe: #165E4B;
+  --leia-shadow: #24324B;
+  color-scheme: light;
+}
+[data-theme="high-contrast"] {
+  --leia-bg: #000000;
+  --leia-surface: #000000;
+  --leia-surfaceRaised: #111111;
+  --leia-surfaceOverlay: #171717;
+  --leia-text: #FFFFFF;
+  --leia-textSecondary: #FFFFFF;
+  --leia-textMuted: #F2F2F2;
+  --leia-border: #FFFFFF;
+  --leia-brand: #00FFE1;
+  --leia-brandInk: #000000;
+  --leia-blue: #9BCAFF;
+  --leia-violet: #DEBBFF;
+  --leia-success: #7AFFBF;
+  --leia-warning: #FFE08E;
+  --leia-error: #FFADBD;
+  --leia-info: #A6DDFF;
+  --leia-offline: #FFFFFF;
+  --leia-paused: #FFFFFF;
+  --leia-safe: #7AFFBF;
+  --leia-shadow: #000000;
+  color-scheme: dark;
+}
+:root {
+  --leia-space-0: 0px;
+  --leia-space-1: 4px;
+  --leia-space-2: 8px;
+  --leia-space-3: 12px;
+  --leia-space-4: 16px;
+  --leia-space-5: 20px;
+  --leia-space-6: 24px;
+  --leia-space-7: 28px;
+  --leia-space-8: 32px;
+  --leia-space-9: 36px;
+  --leia-space-10: 40px;
+  --leia-space-11: 44px;
+  --leia-space-12: 48px;
+  --leia-space-13: 52px;
+  --leia-space-14: 56px;
+  --leia-space-15: 60px;
+  --leia-space-16: 64px;
+  --leia-radius-xs: 6px;
+  --leia-radius-sm: 10px;
+  --leia-radius-md: 14px;
+  --leia-radius-lg: 20px;
+  --leia-radius-xl: 28px;
+  --leia-radius-pill: 999px;
+  --leia-font: Inter, "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+  --leia-mono: "IBM Plex Mono", "Cascadia Code", Consolas, monospace;
+  --leia-ease: cubic-bezier(.2,.8,.2,1);
+}
+@media (prefers-reduced-motion: reduce) {*,*::before,*::after{animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important}}

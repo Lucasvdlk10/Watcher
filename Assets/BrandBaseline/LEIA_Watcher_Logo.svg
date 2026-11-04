@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">LEIA Watcher</title>
+  <desc id="desc">Símbolo de observação e organização da identidade LEIA.</desc>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="40" x2="448" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111B2B"/><stop offset="1" stop-color="#070B12"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="98" y1="130" x2="421" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70A7FF"/><stop offset=".52" stop-color="#47E2CD"/><stop offset="1" stop-color="#B29BFF"/>
+    </linearGradient>
+    <radialGradient id="core"><stop stop-color="#EAF7FF"/><stop offset=".34" stop-color="#47E2CD"/><stop offset="1" stop-color="#70A7FF"/></radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="18" y="18" width="476" height="476" rx="116" fill="url(#bg)" stroke="#223653" stroke-width="12"/>
+  <path d="M82 267C122 190 180 150 256 150s134 40 174 117c-40 76-98 116-174 116S122 343 82 267Z" fill="none" stroke="url(#wave)" stroke-width="23" stroke-linecap="round"/>
+  <path d="M111 207c43-53 91-79 145-79s102 26 145 79" fill="none" stroke="#70A7FF" stroke-opacity=".25" stroke-width="9" stroke-linecap="round"/>
+  <path d="M111 327c43 53 91 79 145 79s102-26 145-79" fill="none" stroke="#B29BFF" stroke-opacity=".22" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="256" cy="267" r="79" fill="#0B1320" stroke="url(#wave)" stroke-width="12"/>
+  <circle cx="256" cy="267" r="42" fill="url(#core)" filter="url(#glow)"/>
+  <path d="M256 209v116M198 267h116" stroke="#F4FBFF" stroke-width="13" stroke-linecap="round" opacity=".88"/>
+  <circle cx="256" cy="267" r="12" fill="#071019"/>
+  <circle cx="407" cy="158" r="16" fill="#47E2CD" filter="url(#glow)"/>
+</svg>

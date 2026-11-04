@@ -1,0 +1,4 @@
+[console_scripts]
+leia-watcher = leia_watcher.cli:main
+leia-watcher-core = leia_watcher.main:main
+leia-watcher-ui = leia_watcher.ui:main

@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: leia-watcher
+Version: 3.0.0
+Summary: LEIA Watcher V3 Dark Program: local, deterministic, auditable file organizer
+License: Proprietary - internal use
+Requires-Python: >=3.11

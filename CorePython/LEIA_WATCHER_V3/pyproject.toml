@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "leia-watcher"
+version = "3.0.0"
+description = "LEIA Watcher V3 Dark Program: local, deterministic, auditable file organizer"
+requires-python = ">=3.11"
+license = {text = "Proprietary - internal use"}
+dependencies = []
+[project.scripts]
+leia-watcher = "leia_watcher.cli:main"
+leia-watcher-core = "leia_watcher.main:main"
+leia-watcher-ui = "leia_watcher.ui:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.setuptools.package-data]
+leia_watcher = ["schema.sql", "assets/*.png", "assets/*.txt", "assets/*.ico"]
